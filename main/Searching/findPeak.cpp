@@ -38,7 +38,6 @@ int main() {
     vector<int> arr = {2, 3, 9, 7, 4, 1};
     // int peakIndex = findPeakIndex(arr);
     // cout << "Peak index: " << peakIndex << endl;
-    // using store & compute method
 
     // for storeNcompute method
     int ansIndex = -1;
