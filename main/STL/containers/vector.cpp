@@ -87,7 +87,24 @@ int main()
         vector<int> second;
         first.swap(second);
         // we can swap the elements of each vector's
+
+        // 14-> create and iterator, traversing the vector using iterator 
+        vector<int>marks;
+        marks.push_back(10); 
+        marks.push_back(20);
+        marks.push_back(30);
+        marks.push_back(40);
+
+        vector<int>::iterator it = marks.begin(); // syntax
+
+        while(it != marks.end()){
+            cout<< *it;
+            it++;
+        }
      */
+
+        
+
 
    
 
