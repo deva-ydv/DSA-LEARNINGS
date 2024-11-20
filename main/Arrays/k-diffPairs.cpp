@@ -6,7 +6,6 @@ using namespace std;
 // using 2 pointer
 
 void kDiffPairs(int arr[], int k, int n) {
-    // Sort the array (if not already sorted)
     sort(arr, arr + n);
     
     int count = 0;
@@ -18,9 +17,7 @@ void kDiffPairs(int arr[], int k, int n) {
         
         if (diff == k) {
             count++;
-            cout << arr[i] << ", " << arr[j] << endl;  // Output the pair
-            
-            // Move both pointers to find the next unique pair
+            cout << arr[i] << ", " << arr[j] << endl;  
             i++;
             j++;
             

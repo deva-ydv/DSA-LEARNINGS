@@ -14,7 +14,7 @@ int solve(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         if (freq[arr[i]] > 1) {
             return arr[i]; 
-        }
+        }    
     }
 
     return -1; 

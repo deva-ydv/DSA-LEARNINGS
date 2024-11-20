@@ -8,7 +8,7 @@ int findPairs(vector<int> arr, int k) {
     int n = arr.size();
     set<pair<int, int>> temp;
     sort(arr.begin(), arr.end());
-    int i = 0, j = 1;
+    int i = 0, j = 1; 
 
     while (j < n) {
         int diff = arr[j] - arr[i]; 
