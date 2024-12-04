@@ -43,7 +43,7 @@ int main(){
 
     int arr[] = {2,3,4,5,6,7,12,13,14,15,20};
     int n = sizeof(arr)/sizeof(int);
-    int x = 2;
+    int x = 7;
     int ans = expSearch1(arr,n,x);
     cout<<ans;
 
