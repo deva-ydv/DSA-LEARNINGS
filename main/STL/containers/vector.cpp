@@ -12,7 +12,7 @@ vector:
 
 int main()
 {
-    /*
+  /*
 
     To use this -> #include<vector>
     creation of vector
